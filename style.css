@@ -213,7 +213,12 @@ section.freelancer p{
 
 /* -------------------------Reviews Section Started------------------------ */
 
-
+section.reviews .slider .slide img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
 /* --------------------------Reviews Section Ended------------------------------- */
