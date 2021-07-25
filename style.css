@@ -11,6 +11,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -312,9 +315,186 @@ section.work .card-wrapper .card img{
 
 /* -----------------------------Blog Section Started------------------------- */
 
-
-
+section.blog{
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+    padding-bottom: 10rem;
+}
+section.blog .section-heading{
+    color: var(--pure);
+}
+section.blog .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem;
+}
+section.blog .card-wrapper .card{
+    background-color: var(--pure);
+}
+section.blog .card-wrapper .card .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.blog .card-wrapper .card .card-content{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+section.blog .card-wrapper .card .card-content h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+section.blog .card-wrapper .card .card-content a{
+    color: var(--secondary);
+    text-decoration: none;
+}
+section.blog .card-wrapper .card .card-content a:hover{
+    color: var(--primary);
+}
+section.blog .card-wrapper .card .card-content span{
+    color: var(--ternary);
+    font-size: 0.8rem;
+}
+section.blog .card-wrapper .card .card-content p{
+    font-family: 'Lato' sans-serif;
+    color: var(--ternary);
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+    margin: 1rem 0; 
+}
+section.blog .card-wrapper .card .card-content a.read-more{
+    font-size: 0.8rem;
+}
 
 
 
 /* -------------------------------Blog Section Ended-------------------------------------- */
+
+/* -----------------------------Media Queries---------------------------- */
+
+
+@media only screen and (max-width: 650px){
+    body{
+        width:auto !important;
+    }
+
+}	
+/* @media only screen and (max-width: 650px){
+    td[class=image-100-percent] img{
+        width:100% !important;
+        height:auto !important;
+        max-width:100% !important;
+    }
+
+}	
+@media only screen and (max-width: 650px){
+    table[class=full-width]{
+        width:100% !important;
+    }
+
+}	
+@media only screen and (max-width: 650px){
+    td[class=text-center]{
+        text-align:center !important;
+    }
+
+}	
+@media only screen and (max-width: 650px){
+    table[class=fix-box]{
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+
+}	
+@media only screen and (max-width: 650px){
+    td[class=fix-box]{
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+
+}	 */
+@media only screen and (max-width: 479px){
+    body{
+        font-size:10px !important;
+    }
+
+}	
+/* @media only screen and (max-width: 479px){
+    table[class=container]{
+        width:95% !important;
+        padding-left:10px !important;
+        padding-right:10px !important;
+    }
+
+}	
+@media only screen and (max-width: 479px){
+    td[class=full-width] img{
+        width:100% !important;
+        height:auto !important;
+        max-width:100% !important;
+        min-width:124px !important;
+    }
+
+}	
+@media only screen and (max-width: 479px){
+    td[class=image-100-percent] img{
+        width:100% !important;
+        height:auto !important;
+        max-width:100% !important;
+        min-width:124px !important;
+    }
+
+}	
+@media only screen and (max-width: 479px){
+    table[class=full-width]{
+        width:100% !important;
+    }
+
+}	
+@media only screen and (max-width: 479px){
+    td[class=text-center]{
+        text-align:center !important;
+    }
+
+}	 */
+@media only screen and (max-width: 479px){
+    div{                                                 /* [class=text-center] This will be written just after div*/
+        text-align:center !important;
+    }
+
+}	
+/* @media only screen and (max-width: 479px){
+    table[class=fix-box]{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+
+}	 */
+/* @media only screen and (max-width: 479px){
+    td[class=fix-box]{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+
+}	 */
+@media only screen and (max-width: 479px){
+    [class~=hide_on_mobile]{
+        display:none !important;
+    }
+
+}	
+@media only screen and (max-width: 479px){
+    img{                                         /* [class=image-100-percent] this will be written just after image*/
+        width:100% !important;
+        height:auto !important;                  
+        max-width:100% !important;
+        min-width:124px !important;
+    }
+
+}	
+/* @media only screen and (max-width: 479px){
+    td[class=menumobile]{
+        padding-top:5px !important;
+    }
+} */
