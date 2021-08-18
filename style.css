@@ -25,7 +25,7 @@ html{
 /* ---------------------Header Section Started--------------------- */
 
 header{
-    background-color: var(--dark);
+    background-color: #F3A291;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
 }
 
@@ -316,7 +316,7 @@ section.work .card-wrapper .card img{
 /* -----------------------------Blog Section Started------------------------- */
 
 section.blog{
-    background-color: var(--dark);
+    background-color: #F3A291;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
     padding-bottom: 10rem;
 }
@@ -367,134 +367,85 @@ section.blog .card-wrapper .card .card-content a.read-more{
     font-size: 0.8rem;
 }
 
-
-
 /* -------------------------------Blog Section Ended-------------------------------------- */
 
-/* -----------------------------Media Queries---------------------------- */
+/* ------------------------------contact Section started---------------------------------- */
 
-
-@media only screen and (max-width: 650px){
-    body{
-        width:auto !important;
+    section.contact .card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem;
+        margin-bottom: 3rem;
+    }
+    section.contact .card-wrapper .card{
+        text-align: center;
+    }
+    section.contact .card-wrapper .card img{
+        margin-bottom: 2rem;
+    }
+    section.contact .card-wrapper .card h2{
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    section.contact .card-wrapper .card h6{
+        font-size: 1rem;
+        color: tomato;
+        font-weight: 200;
     }
 
-}	
-/* @media only screen and (max-width: 650px){
-    td[class=image-100-percent] img{
-        width:100% !important;
-        height:auto !important;
-        max-width:100% !important;
+    section.contact .input-wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    section.contact .input-wrap-2{
+        display: flex;
+        flex-direction: column;
+    }
+    section.contact .input-wrap-2 input{
+        margin-bottom: 2rem;
+        border: 2px solid var(--light);
+        font-size: 0.9rem;
+    }
+    section.contact input{
+        padding: 0.5rem;
+        border: 2px solid var(--light);
+        font-size: 0.9rem;
+    }
+    section.contact .input-wrap-2 textarea{
+        padding: 0.5rem;
+        border: 2px solid var(--light);
+        font-size: 0.9rem;
+    }
+    section.contact .input-wrap-2 textarea:focus{
+        outline: none;
+    }
+    section.contact .btn-wrapper{
+        text-align: center;
+        margin-top: 2rem;
     }
 
-}	
-@media only screen and (max-width: 650px){
-    table[class=full-width]{
-        width:100% !important;
+
+/* ------------------------------contact Section Ended---------------------------------- */
+
+
+/* ------------------------------footer Section Stared---------------------------------- */
+
+    footer{
+        background-color: black;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    footer .footer-socials a{
+        margin-right: 1rem;
+    }
+    footer .footer-socials{
+        margin-right: -1rem;
+    }
+    footer .coyright{
+        margin-top: 3rem;
+        color: blanchedalmond;
     }
 
-}	
-@media only screen and (max-width: 650px){
-    td[class=text-center]{
-        text-align:center !important;
-    }
-
-}	
-@media only screen and (max-width: 650px){
-    table[class=fix-box]{
-        padding-left:20px !important;
-        padding-right:20px !important;
-    }
-
-}	
-@media only screen and (max-width: 650px){
-    td[class=fix-box]{
-        padding-left:20px !important;
-        padding-right:20px !important;
-    }
-
-}	 */
-@media only screen and (max-width: 479px){
-    body{
-        font-size:10px !important;
-    }
-
-}	
-/* @media only screen and (max-width: 479px){
-    table[class=container]{
-        width:95% !important;
-        padding-left:10px !important;
-        padding-right:10px !important;
-    }
-
-}	
-@media only screen and (max-width: 479px){
-    td[class=full-width] img{
-        width:100% !important;
-        height:auto !important;
-        max-width:100% !important;
-        min-width:124px !important;
-    }
-
-}	
-@media only screen and (max-width: 479px){
-    td[class=image-100-percent] img{
-        width:100% !important;
-        height:auto !important;
-        max-width:100% !important;
-        min-width:124px !important;
-    }
-
-}	
-@media only screen and (max-width: 479px){
-    table[class=full-width]{
-        width:100% !important;
-    }
-
-}	
-@media only screen and (max-width: 479px){
-    td[class=text-center]{
-        text-align:center !important;
-    }
-
-}	 */
-@media only screen and (max-width: 479px){
-    div{                                                 /* [class=text-center] This will be written just after div*/
-        text-align:center !important;
-    }
-
-}	
-/* @media only screen and (max-width: 479px){
-    table[class=fix-box]{
-        padding-left:0 !important;
-        padding-right:0 !important;
-    }
-
-}	 */
-/* @media only screen and (max-width: 479px){
-    td[class=fix-box]{
-        padding-left:0 !important;
-        padding-right:0 !important;
-    }
-
-}	 */
-@media only screen and (max-width: 479px){
-    [class~=hide_on_mobile]{
-        display:none !important;
-    }
-
-}	
-@media only screen and (max-width: 479px){
-    img{                                         /* [class=image-100-percent] this will be written just after image*/
-        width:100% !important;
-        height:auto !important;                  
-        max-width:100% !important;
-        min-width:124px !important;
-    }
-
-}	
-/* @media only screen and (max-width: 479px){
-    td[class=menumobile]{
-        padding-top:5px !important;
-    }
-} */
+/* ------------------------------footer Section Ended---------------------------------- */
