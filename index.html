@@ -16,342 +16,358 @@
     <title>Portfolio Website</title>
 </head>
 <body>
-    
+
+    <div class="site-main-wrapper">
+        <button class="hamburger">
+            <img src="images/hamberger.svg" alt="">
+        </button>
+        <div class="mobile-nav">
+            <button class="times"><img src="images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </div>
+            
     <!-- -------------------Header Section Started--------------------- -->
 
-    <header>
-        <div class="container">
-            <nav class="flex items-center justify-between">
-                <div class="left flex items-center">
-                    <div class="branding">
-                        <!-- <img src="images/logo.svg" alt=""> -->
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <!-- <img src="images/logo.svg" alt=""> -->
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#work">Work</a>
+                            <a href="#blog">Blog</a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="#">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#services">Services</a>
-                        <a href="#work">Work</a>
-                        <a href="#blog">Blog</a>
-                    </div>
-                </div>
-                <div class="right">
-                    <a href="#contact-field">
-                        <button class="btn btn-primary">Contact</button>
-                    </a>
-                </div>
-            </nav>
-            <div class="hero flex items-center justify-between">
-                <div class="left flex-1">
-                    <img src="images/emon.png" alt="">
-                </div>
-                <div class="right flex-1">
-                    <h6>Mizanur Rahman Emon</h6>
-                    <h1>I am a BABY <span>Designer</span></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus?</p>
-                    <div>
-                        <button class="btn btn-secondary">DOWNLOAD CV</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- ------------ Header Section Ended ------------ -->
-
-
-    <!-- ------------------About Section Started----------------------- -->
-
-    <section id="about" class="about">
-        <div class="container flex items-center">
-            <div class="flex-1">
-                <img class="about-me-img" src="images/emon1.jpg" alt="">
-            </div>
-            <div class="flex-1">
-                <h1>About <span>Me</span></h1>
-                <h3>Hello! I'm Emon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus voluptas iste odit dignissimos, vitae modi maxime nesciunt suscipit at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus voluptas iste odit dignissimos, vitae modi maxime nesciunt suscipit at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus voluptas iste odit dignissimos, vitae modi maxime nesciunt suscipit at.</p>
-                <div class="social"> 
-                    <a href="#"><img src="images/website.svg" alt=""></a>
-                    <a href="#"><img src="images/facebook.svg" alt=""></a>
-                    <a href="#"><img src="images/twitter.svg" alt=""></a>
-                    <a href="#"><img src="images/pintrest.svg" alt=""></a>
-                    <a href="#"><img src="images/instagram.svg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ---------------About Section Ended-------------------- -->
-
-
-    <!-- --------------------Services Section Started---------------------- -->
-
-    <section id="services" class="services">
-        <div class="container">
-            <h1 class="section-heading"><Span>My</Span> Services</h1>
-            <p>I Provide High Standard Clean Website For Your Business Solutions</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="images/brush.svg" alt="">
-                    <h2>Graphics Design</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
-                </div>
-                <div class="card">
-                    <img src="images/code.svg" alt="">
-                    <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
-                </div>
-                <div class="card">
-                    <img src="images/bag.svg" alt="">
-                    <h2>Mobile Marketing</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
-                </div>
-                <div class="card">
-                    <img src="images/desktop.svg" alt="">
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
-                </div>
-                <div class="card">
-                    <img src="images/media.svg" alt="">
-                    <h2>Motion Graphic</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
-                </div>
-                <div class="card">
-                    <img src="images/phone.svg" alt="">
-                    <h2>Apps</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
-                </div>
-            </div>
-        </div> 
-    </section>
-
-    <!-- ----------------------Services Section Ended---------------------- -->
-
-
-    <!-- -------------------Freelancer Section Started---------------- -->
-
-    <section class="freelancer">
-        <h1>I am Available For Freelancing</h1>
-        <p>I Provide High Standard Clean Website For Your Business Solutions</p>
-        <button class="btn btn-primary">Download CV</button>
-    </section>
-
-    <!-- ---------------------Freelancer Section Ended---------------------------- -->
-
-    <!-- -------------------Reviews Section Started------------------------ -->
-
-    <section class="reviews">
-        <div class="container">
-            <h1 class="section-heading"><span>My</span> Clients</h1>
-            <p>We Provide High Standard Clean Website For Your Business Solutions</p>
-            <div class="slider">
-                <div class="slide">
-                    <img src="images/lady.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
-                    <span class="name">- Jennifer, Company Google</span>
-                </div>
-                <div class="slide">
-                    <img src="images/lady.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
-                    <span class="name">- Jennifer, Company Google</span>
-                </div>
-                <div class="slide">
-                    <img src="images/lady.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
-                    <span class="name">- Jennifer, Company Google</span>
-                </div>
-                <div class="slide">
-                    <img src="images/lady.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
-                    <span class="name">- Jennifer, Company Google</span>
-                </div>
-            </div>
-            <div class="slider-dots"></div>
-        </div>
-    </section>
-
-    <!-- ---------------------Reviews Section Ended----------------------- -->
-
-
-
-    <!-- ----------------------Work Section Started---------------------- -->
-
-    <section id="work" class="work">
-        <div class="container">
-            <h1 class="section-heading"><span>My</span> Works</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, culpa?</p>
-
-
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="overlay">
-                        <span class="name-2">Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="images/ph-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span class="name-2">Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="images/ph-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span class="name-2">Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="images/ph-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span class="name-2">Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="images/ph-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span class="name-2">Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="images/ph-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span class="name-2">Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="images/ph-1.png" alt="">
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-    </section>
-
-
-    <!-- ------------------------Work Section Ended------------------------ -->
-
-
-    <!-- -------------------------Blog Section Started-------------------------------------- -->
-
-    <section id="blog" class="blog">
-        <div class="container">
-            <h1 class="section-heading"><span>My</span> Blog</h1>
-            <p>I Provide High Standard Clean Website For Your Business Solutions</p>
-
-
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="images/article-ph-1.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="#">
-                            <h1>Lorem ipsum dolor sit amet</h1>
+                    <div class="right">
+                        <a href="#contact-field">
+                            <button class="btn btn-primary">Contact</button>
                         </a>
-                        <span>July 25, 2021</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, suscipit. Maiores at quia sapiente nulla soluta deserunt ab tenetur repellendus, et debitis impedit illum vel quaerat enim expedita labore dolor?</p>
-                        <a href="#">Read More</a>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="images/article-ph-1.png" alt="">
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1">
+                        <img src="images/emon.png" alt="">
                     </div>
-                    <div class="card-content">
-                        <a href="#">
-                            <h1>Lorem ipsum dolor sit amet</h1>
-                        </a>
-                        <span>July 25, 2021</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, suscipit. Maiores at quia sapiente nulla soluta deserunt ab tenetur repellendus, et debitis impedit illum vel quaerat enim expedita labore dolor?</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="images/article-ph-1.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="#">
-                            <h1>Lorem ipsum dolor sit amet</h1>
-                        </a>
-                        <span>July 25, 2021</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, suscipit. Maiores at quia sapiente nulla soluta deserunt ab tenetur repellendus, et debitis impedit illum vel quaerat enim expedita labore dolor?</p>
-                        <a href="#">Read More</a>
+                    <div class="right flex-1">
+                        <h6>Mizanur Rahman Emon</h6>
+                        <h1>I am a BABY <span>Developer</span></h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, doloribus?</p>
+                        <div>
+                            <button class="btn btn-secondary">DOWNLOAD CV</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
 
-    <!-- ---------------------------Blog Section Ended----------------------------------- -->
 
-    <!-- ------------------------contact Section started------------------------------- -->
+        <!-- ------------ Header Section Ended ------------ -->
 
-    <section id="contact-field" class="contact">
-        <div class="container">
-            <h1 class="section-heading"><span>Contact</span> Us</h1>
+
+        <!-- ------------------About Section Started----------------------- -->
+
+        <section id="about" class="about">
+            <div class="container flex items-center">
+                <div class="flex-1">
+                    <img class="about-me-img" src="images/emon1.jpg" alt="">
+                </div>
+                <div class="flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I'm Emon</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus voluptas iste odit dignissimos, vitae modi maxime nesciunt suscipit at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus voluptas iste odit dignissimos, vitae modi maxime nesciunt suscipit at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloribus voluptas iste odit dignissimos, vitae modi maxime nesciunt suscipit at.</p>
+                    <div class="social"> 
+                        <a href="#"><img src="images/website.svg" alt=""></a>
+                        <a href="#"><img src="images/facebook.svg" alt=""></a>
+                        <a href="#"><img src="images/twitter.svg" alt=""></a>
+                        <a href="#"><img src="images/pintrest.svg" alt=""></a>
+                        <a href="#"><img src="images/instagram.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------About Section Ended-------------------- -->
+
+
+        <!-- --------------------Services Section Started---------------------- -->
+
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><Span>My</Span> Services</h1>
+                <p>I Provide High Standard Clean Website For Your Business Solutions</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="images/brush.svg" alt="">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/code.svg" alt="">
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/bag.svg" alt="">
+                        <h2>Mobile Marketing</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/desktop.svg" alt="">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/media.svg" alt="">
+                        <h2>Motion Graphic</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/phone.svg" alt="">
+                        <h2>Apps</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad doloribus obcaecati iusto necessitatibus in ex.</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- ----------------------Services Section Ended---------------------- -->
+
+
+        <!-- -------------------Freelancer Section Started---------------- -->
+
+        <section class="freelancer">
+            <h1>I am Available For Freelancing</h1>
             <p>I Provide High Standard Clean Website For Your Business Solutions</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="images/phone-2.svg" alt="">
-                    <h2>Call me on</h2>
-                    <h6>+8801770050348</h6>
+            <button class="btn btn-primary">Download CV</button>
+        </section>
+
+        <!-- ---------------------Freelancer Section Ended---------------------------- -->
+
+        <!-- -------------------Reviews Section Started------------------------ -->
+
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Clients</h1>
+                <p>We Provide High Standard Clean Website For Your Business Solutions</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="images/lady.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
+                        <span class="name">- Jennifer, Company Google</span>
+                    </div>
+                    <div class="slide">
+                        <img src="images/lady.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
+                        <span class="name">- Jennifer, Company Google</span>
+                    </div>
+                    <div class="slide">
+                        <img src="images/lady.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
+                        <span class="name">- Jennifer, Company Google</span>
+                    </div>
+                    <div class="slide">
+                        <img src="images/lady.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quam necessitatibus officiis repellendus, omnis ipsum.</p>
+                        <span class="name">- Jennifer, Company Google</span>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="images/msg.svg" alt="">
-                    <h2>Email me at</h2>
-                    <h6>emon.cse36@gmail.com</h6>
-                </div>
-                <div class="card">
-                    <img src="images/map.svg" alt="">
-                    <h2>Visit office</h2>
-                    <h6>Sylhet, Bangladesh</h6>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        <!-- ---------------------Reviews Section Ended----------------------- -->
+
+
+
+        <!-- ----------------------Work Section Started---------------------- -->
+
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Works</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, culpa?</p>
+
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span class="name-2">Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span class="name-2">Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span class="name-2">Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span class="name-2">Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span class="name-2">Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span class="name-2">Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="images/ph-1.png" alt="">
+                    </div>
                 </div>
             </div>
-            <form action="">
-                <div class="input-wrap">
-                    <input type="text" placeholder="Your name Please..">
-                    <input type="email" placeholder="Your email Please..">
+
+
+
+
+
+
+        </section>
+
+
+        <!-- ------------------------Work Section Ended------------------------ -->
+
+
+        <!-- -------------------------Blog Section Started-------------------------------------- -->
+
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Blog</h1>
+                <p>I Provide High Standard Clean Website For Your Business Solutions</p>
+
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                            </a>
+                            <span>July 25, 2021</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, suscipit. Maiores at quia sapiente nulla soluta deserunt ab tenetur repellendus, et debitis impedit illum vel quaerat enim expedita labore dolor?</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                            </a>
+                            <span>July 25, 2021</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, suscipit. Maiores at quia sapiente nulla soluta deserunt ab tenetur repellendus, et debitis impedit illum vel quaerat enim expedita labore dolor?</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Lorem ipsum dolor sit amet</h1>
+                            </a>
+                            <span>July 25, 2021</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, suscipit. Maiores at quia sapiente nulla soluta deserunt ab tenetur repellendus, et debitis impedit illum vel quaerat enim expedita labore dolor?</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-wrap-2">
-                    <input type="text" placeholder="Your subject Please..">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Few notes please.."></textarea>
+            </div>
+        </section>
+
+        <!-- ---------------------------Blog Section Ended----------------------------------- -->
+
+        <!-- ------------------------contact Section started------------------------------- -->
+
+        <section id="contact-field" class="contact">
+            <div class="container">
+                <h1 class="section-heading"><span>Contact</span> Us</h1>
+                <p>I Provide High Standard Clean Website For Your Business Solutions</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="images/phone-2.svg" alt="">
+                        <h2>Call me on</h2>
+                        <h6>+8801770050348</h6>
+                    </div>
+                    <div class="card">
+                        <img src="images/msg.svg" alt="">
+                        <h2>Email me at</h2>
+                        <h6>emon.cse36@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="images/map.svg" alt="">
+                        <h2>Visit office</h2>
+                        <h6>Sylhet, Bangladesh</h6>
+                    </div>
                 </div>
-                <div class="btn-wrapper">
-                    <button class="btn btn-primary">Send Please!</button>
-                </div>
-            </form>
-        </div>
-    </section>
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your name Please..">
+                        <input type="email" placeholder="Your email Please..">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your subject Please..">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Write Few notes please.."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Please!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-    <!-- ------------------------contact Section Ended------------------------------- -->
+        <!-- ------------------------contact Section Ended------------------------------- -->
 
 
-    <!-- ------------------------Footer Section Started------------------------------- -->
+        <!-- ------------------------Footer Section Started------------------------------- -->
 
-    <footer>
-        <div class="footer-socials">
-            <a href="#"><img src="images/website.svg" alt=""></a>
-            <a href="#"><img src="images/facebook.svg" alt=""></a>
-            <a href="#"><img src="images/twitter.svg" alt=""></a>
-            <a href="#"><img src="images/instagram.svg" alt=""></a>
-            <a href="#"><img src="images/pintrest.svg" alt=""></a>
-        </div>
-        <div class="coyright">
-            Copyright 2021 &copy; Mizanur Rahman Emon.
-        </div>
-    </footer>
-
+        <footer>
+            <div class="footer-socials">
+                <a href="#"><img src="images/website.svg" alt=""></a>
+                <a href="#"><img src="images/facebook.svg" alt=""></a>
+                <a href="#"><img src="images/twitter.svg" alt=""></a>
+                <a href="#"><img src="images/instagram.svg" alt=""></a>
+                <a href="#"><img src="images/pintrest.svg" alt=""></a>
+            </div>
+            <div class="coyright">
+                Copyright 2021 &copy; Mizanur Rahman Emon.
+            </div>
+        </footer>
     <!-- ------------------------Footer Section Ended------------------------------- -->
+    </div>
+
 
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
